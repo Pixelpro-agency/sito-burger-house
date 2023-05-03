@@ -1,0 +1,220 @@
+/* max width 1050px */
+
+@media(max-width: 1050px) {
+
+    .navbar {
+    height: 70px;
+    padding: 5px 20px;
+}
+
+.logo img {
+    width: 110px;
+}
+
+.nav_right {
+    gap: 50px;
+}
+
+.nav_links li a {
+    font-size: 12px;
+    padding: 8px 6px;
+}
+
+}
+
+
+
+/* max width 900px */
+
+@media(max-width: 900px) {
+
+    .nav_right {
+        width: 300px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 70px;
+        gap: 70px;
+        background: rgba(0,0,0,0.9);
+        position: fixed;
+        top: 70px;
+        right: -110%;
+        z-index: 99;
+    }
+
+    .nav_right.active {
+        right: 0;
+    }
+
+    .nav_links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .nav_links li {
+        width: 100%;
+        display: flex;
+        margin: 4px 0;
+    }
+
+    .nav_links li a {
+        width: 100%;
+        font-size: 18px;
+        padding: 10px 20px;
+        border-radius: 0px;
+        text-align: center;
+    }
+    
+    .nav_links li a.active,
+    .nav_links li a:hover {
+        color: var(--black_color);
+        background: var(--main_color);
+    }
+
+    .toggle_btn {
+        display: flex;
+    }
+
+
+/* Hero Section */
+    .heroHeading-1 {
+        font-size: 3.5rem;
+    }
+    
+    .heroHeading-2 {
+        font-size: 3rem;
+    }
+
+
+
+    .main_section {
+        width: 100%;
+        position: relative;
+        padding: 10px;
+        background: #131313;
+    }
+
+    .container {
+        width: 100%;
+        padding: 20px;
+    }
+
+
+
+    .small_heading {
+        font-size: 0.9rem;
+    }
+    
+    .main_heading {
+        font-size: 1.4rem;
+    }
+    
+    .main_des {
+        font-size: 12px;
+    }
+
+
+    .cont_heading {
+        font-size: 17px;
+    }
+    
+    .cont_des {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .reviews {
+        gap: 25px;
+    }
+
+
+    .midBannerHeading {
+        font-size: 1.2rem;
+        line-height: 40px;
+    }
+
+
+
+}
+
+
+
+/* max width 550px */
+
+@media(max-width: 550px) {
+
+    .nav_right {
+        width: 100%;
+    }
+
+    .heroHeading-1 {
+        font-size: 2.5rem;
+    }
+    
+    .heroHeading-2 {
+        font-size: 2rem;
+    }
+
+
+    .small_heading {
+        font-size: 0.8rem;
+    }
+    
+    .main_heading {
+        font-size: 1rem;
+    }
+    
+    .main_des {
+        font-size: 11px;
+    }
+
+    .cont_heading {
+        font-size: 14px;
+    }
+    
+    .cont_des {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .reviews {
+        gap: 20px;
+    }
+
+
+
+    .footerMid {
+        width: 100%;
+        gap: 30px;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerBox {
+        width: 100%;
+        margin: 20px 0;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerDes {
+        text-align: center;
+        width: 100%;
+    }
+
+    .socialIcons {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+}
