@@ -43,7 +43,7 @@
 
     /* Color's Variables */
     --main_color: #ffaf1b;
-    --black_color: #111111;
+    --black_color: black;
     --white_color: #ffffff;
 }
 
